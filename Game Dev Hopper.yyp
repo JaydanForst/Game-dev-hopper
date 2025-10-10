@@ -57,8 +57,8 @@
     {"id":{"name":"OPortals","path":"objects/OPortals/OPortals.yy",},},
     {"id":{"name":"ORespawnButton","path":"objects/ORespawnButton/ORespawnButton.yy",},},
     {"id":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
+    {"id":{"name":"Narutoroom","path":"rooms/Narutoroom/Narutoroom.yy",},},
     {"id":{"name":"SBackground","path":"sprites/SBackground/SBackground.yy",},},
     {"id":{"name":"SBlicky","path":"sprites/SBlicky/SBlicky.yy",},},
     {"id":{"name":"SBlock","path":"sprites/SBlock/SBlock.yy",},},
@@ -85,9 +85,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"roomId":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
+    {"roomId":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
+    {"roomId":{"name":"Narutoroom","path":"rooms/Narutoroom/Narutoroom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
