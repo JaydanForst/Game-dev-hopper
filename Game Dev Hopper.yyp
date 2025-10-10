@@ -58,6 +58,7 @@
     {"id":{"name":"ORespawnButton","path":"objects/ORespawnButton/ORespawnButton.yy",},},
     {"id":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"id":{"name":"SBackground","path":"sprites/SBackground/SBackground.yy",},},
     {"id":{"name":"SBlicky","path":"sprites/SBlicky/SBlicky.yy",},},
     {"id":{"name":"SBlock","path":"sprites/SBlock/SBlock.yy",},},
@@ -86,6 +87,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
+    {"roomId":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
