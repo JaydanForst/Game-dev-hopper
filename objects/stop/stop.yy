@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Ogamecontroller",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"stop",
+  "eventList":[],
   "managed":true,
-  "name":"Ogamecontroller",
+  "name":"stop",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"pauze",
+    "path":"sprites/pauze/pauze.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

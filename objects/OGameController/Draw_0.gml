@@ -3,8 +3,8 @@ if paused {
     draw_set_valign(fa_middle);
     draw_set_color(c_white);
 
-   
-    draw_set_font(fnt_big);  
+
+    draw_set_font(fnt_big);
 
     draw_text(room_width/2, room_height/2, "PAUZE");
 }
