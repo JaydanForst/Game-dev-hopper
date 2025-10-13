@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object_agrond",
+  "%Name":"Object_NarutoPlatform",
   "eventList":[],
   "managed":true,
-  "name":"Object_agrond",
+  "name":"Object_NarutoPlatform",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Sprite_afgrond",
-    "path":"sprites/Sprite_afgrond/Sprite_afgrond.yy",
+    "name":"Sprite_NarutoPlatform",
+    "path":"sprites/Sprite_NarutoPlatform/Sprite_NarutoPlatform.yy",
   },
   "spriteMaskId":null,
   "visible":true,
