@@ -26,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"Sprite_NarutoPlatform",
     "path":"sprites/Sprite_NarutoPlatform/Sprite_NarutoPlatform.yy",

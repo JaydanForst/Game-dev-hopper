@@ -8,7 +8,7 @@ if !paused_game {
     if keyboard_check(vk_right) xsp = 7;
 
  
-    if place_meeting(x, y+1, Object_BrownPlatform) || place_meeting(x, y+1, Object_agrond)  || place_meeting(x, y+1, Object_GrassPlatform) {
+    if place_meeting(x, y+1, Object_BrownPlatform) || place_meeting(x, y+1, Object_agrond)  || place_meeting(x, y+1, Object_NarutoPlatform) {
         if keyboard_check_pressed(vk_up) {
             ysp = -15;
         }
@@ -18,7 +18,7 @@ if !paused_game {
     if xsp != 0 {
         var hsign = sign(xsp);
         for (var i = 0; i < abs(xsp); i++) {
-            if !place_meeting(x + hsign, y, Object_GrassPlatform) && !place_meeting(x + hsign, y, Object_BrownPlatform) && !place_meeting(x + hsign, y, Object_agrond) {
+            if !place_meeting(x + hsign, y, Object_NarutoPlatform) && !place_meeting(x + hsign, y, Object_BrownPlatform) && !place_meeting(x + hsign, y, Object_agrond) {
                 x += hsign;
             } else {
                 break;
@@ -41,7 +41,7 @@ if !paused_game {
     if ysp != 0 {
         var vsign = sign(ysp);
         for (var i = 0; i < abs(ysp); i++) {
-            if !place_meeting(x, y + vsign, Object_agrond) && !place_meeting(x, y + vsign, Object_BrownPlatform)  && !place_meeting(x, y + vsign, Object_GrassPlatform){
+            if !place_meeting(x, y + vsign, Object_agrond) && !place_meeting(x, y + vsign, Object_BrownPlatform)  && !place_meeting(x, y + vsign, Object_NarutoPlatform){
                 y += vsign;
             } else {
                 ysp = 0;
