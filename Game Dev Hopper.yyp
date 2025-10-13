@@ -60,6 +60,7 @@
     {"id":{"name":"OPortals","path":"objects/OPortals/OPortals.yy",},},
     {"id":{"name":"ORespawnButton","path":"objects/ORespawnButton/ORespawnButton.yy",},},
     {"id":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
+    {"id":{"name":"Jurassic","path":"rooms/Jurassic/Jurassic.yy",},},
     {"id":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"id":{"name":"Narutoroom","path":"rooms/Narutoroom/Narutoroom.yy",},},
     {"id":{"name":"SBackground","path":"sprites/SBackground/SBackground.yy",},},
@@ -94,6 +95,7 @@
     {"roomId":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"roomId":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"roomId":{"name":"Narutoroom","path":"rooms/Narutoroom/Narutoroom.yy",},},
+    {"roomId":{"name":"Jurassic","path":"rooms/Jurassic/Jurassic.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
