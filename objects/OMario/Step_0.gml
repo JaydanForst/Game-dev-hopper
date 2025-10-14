@@ -82,3 +82,9 @@ if ctrl != noone && ctrl.paused {
     exit;
 }
 
+
+ if place_meeting(x, y+1, OPortals){
+
+	room_goto(Narutoroom)
+	 
+ }
