@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object_Naruto",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object_NarutoPauzeknop",
+  "eventList":[],
   "managed":true,
-  "name":"Object_Naruto",
+  "name":"Object_NarutoPauzeknop",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_Naruto",
-    "path":"sprites/Sprite_Naruto/Sprite_Naruto.yy",
+    "name":"Sprite_Pauzeknop",
+    "path":"sprites/Sprite_Pauzeknop/Sprite_Pauzeknop.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -55,7 +55,7 @@ if player != noone {
         player.vsp = -12; 
     } else {
  
-        room_restart();
+        room_goto(Game_Over);
     }
 }
 

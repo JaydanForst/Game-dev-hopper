@@ -26,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"Sprite_BrownPlatform",
     "path":"sprites/Sprite_BrownPlatform/Sprite_BrownPlatform.yy",
