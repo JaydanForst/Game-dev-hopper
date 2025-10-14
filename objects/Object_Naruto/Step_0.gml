@@ -59,3 +59,9 @@ var ctrl = instance_find(OGameController, 0);
 if ctrl != noone && ctrl.paused {
     exit;
 }
+
+if place_meeting(x, y,ODeidara ) {
+	
+	room_goto(Game_Over)
+	
+}
