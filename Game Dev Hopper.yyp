@@ -63,6 +63,7 @@
     {"id":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"id":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"id":{"name":"Narutoroom","path":"rooms/Narutoroom/Narutoroom.yy",},},
+    {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"id":{"name":"SBackground","path":"sprites/SBackground/SBackground.yy",},},
     {"id":{"name":"SBlicky","path":"sprites/SBlicky/SBlicky.yy",},},
     {"id":{"name":"SBlock","path":"sprites/SBlock/SBlock.yy",},},
@@ -96,6 +97,7 @@
     {"roomId":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"roomId":{"name":"Narutoroom","path":"rooms/Narutoroom/Narutoroom.yy",},},
     {"roomId":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
+    {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
