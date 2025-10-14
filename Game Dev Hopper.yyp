@@ -93,8 +93,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"roomId":{"name":"Narutoroom","path":"rooms/Narutoroom/Narutoroom.yy",},},
+    {"roomId":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"roomId":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
   ],
   "templateType":"game",
