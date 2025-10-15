@@ -55,7 +55,7 @@ if player != noone {
         player.vsp = -12; 
     } else {
  
-        room_goto(Game_Over);
+        room_goto(Game_Over_Mario);
     }
 }
 
