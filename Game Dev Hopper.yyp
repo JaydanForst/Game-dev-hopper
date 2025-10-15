@@ -66,6 +66,7 @@
     {"id":{"name":"OPortals","path":"objects/OPortals/OPortals.yy",},},
     {"id":{"name":"ORespawnButton","path":"objects/ORespawnButton/ORespawnButton.yy",},},
     {"id":{"name":"osdmunt","path":"objects/osdmunt/osdmunt.yy",},},
+    {"id":{"name":"SlPauze","path":"objects/SlPauze/SlPauze.yy",},},
     {"id":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"id":{"name":"Jurassic","path":"rooms/Jurassic/Jurassic.yy",},},
     {"id":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
@@ -112,10 +113,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Jurassic","path":"rooms/Jurassic/Jurassic.yy",},},
     {"roomId":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"roomId":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"roomId":{"name":"Narutoroom","path":"rooms/Narutoroom/Narutoroom.yy",},},
-    {"roomId":{"name":"Jurassic","path":"rooms/Jurassic/Jurassic.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
