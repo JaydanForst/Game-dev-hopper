@@ -52,3 +52,15 @@ if !paused_game {
 
 vsp += gravity; 
 y += vsp;
+
+if place_meeting(x, y, GreenFlame) {
+	
+	room_goto(Game_Over)
+	
+}
+
+if place_meeting(x, y, YellowFLame) {
+	
+	room_goto(Game_Over)	
+	
+}
