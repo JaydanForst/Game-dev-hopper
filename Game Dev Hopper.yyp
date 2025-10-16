@@ -42,7 +42,6 @@
     {"id":{"name":"kaboom","path":"objects/kaboom/kaboom.yy",},},
     {"id":{"name":"Moonman","path":"objects/Moonman/Moonman.yy",},},
     {"id":{"name":"Obj_Game_Over_Ruimte","path":"objects/Obj_Game_Over_Ruimte/Obj_Game_Over_Ruimte.yy",},},
-    {"id":{"name":"Obj_Game_Over","path":"objects/Obj_Game_Over/Obj_Game_Over.yy",},},
     {"id":{"name":"Object_agrond","path":"objects/Object_agrond/Object_agrond.yy",},},
     {"id":{"name":"Object_BrownPlatform","path":"objects/Object_BrownPlatform/Object_BrownPlatform.yy",},},
     {"id":{"name":"Object_GrassPlatform","path":"objects/Object_GrassPlatform/Object_GrassPlatform.yy",},},
