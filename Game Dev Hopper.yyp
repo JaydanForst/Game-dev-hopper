@@ -36,6 +36,7 @@
   "name":"Game Dev Hopper",
   "resources":[
     {"id":{"name":"fnt_big","path":"fonts/fnt_big/fnt_big.yy",},},
+    {"id":{"name":"Obj_Game_Over_Jurassic","path":"objects/Obj_Game_Over_Jurassic/Obj_Game_Over_Jurassic.yy",},},
     {"id":{"name":"Obj_Game_Over","path":"objects/Obj_Game_Over/Obj_Game_Over.yy",},},
     {"id":{"name":"Object_agrond","path":"objects/Object_agrond/Object_agrond.yy",},},
     {"id":{"name":"Object_BrownPlatform","path":"objects/Object_BrownPlatform/Object_BrownPlatform.yy",},},
@@ -67,6 +68,7 @@
     {"id":{"name":"ORespawnButton","path":"objects/ORespawnButton/ORespawnButton.yy",},},
     {"id":{"name":"osdmunt","path":"objects/osdmunt/osdmunt.yy",},},
     {"id":{"name":"SlPauze","path":"objects/SlPauze/SlPauze.yy",},},
+    {"id":{"name":"Game_Over_Jurassic","path":"rooms/Game_Over_Jurassic/Game_Over_Jurassic.yy",},},
     {"id":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"id":{"name":"Jurassic","path":"rooms/Jurassic/Jurassic.yy",},},
     {"id":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
@@ -117,6 +119,7 @@
     {"roomId":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"roomId":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"roomId":{"name":"Narutoroom","path":"rooms/Narutoroom/Narutoroom.yy",},},
+    {"roomId":{"name":"Game_Over_Jurassic","path":"rooms/Game_Over_Jurassic/Game_Over_Jurassic.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
