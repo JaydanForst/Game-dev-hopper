@@ -62,6 +62,6 @@ if ctrl != noone && ctrl.paused {
 
 if place_meeting(x, y,ODeidara ) {
 	
-	room_goto(Game_Over_Mario)
+	room_goto(NarutoDeathScreen)
 	
 }
