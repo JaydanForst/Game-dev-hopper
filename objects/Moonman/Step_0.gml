@@ -55,12 +55,12 @@ y += vsp;
 
 if place_meeting(x, y, GreenFlame) {
 	
-	room_goto(Game_Over)
+	room_goto(Game_Over_Ruimte)
 	
 }
 
 if place_meeting(x, y, YellowFLame) {
 	
-	room_goto(Game_Over)	
+	room_goto(Game_Over_Ruimte)	
 	
 }
