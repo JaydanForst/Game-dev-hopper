@@ -50,6 +50,7 @@
     {"id":{"name":"Obj_Game_Over_mario","path":"objects/Obj_Game_Over_mario/Obj_Game_Over_mario.yy",},},
     {"id":{"name":"Obj_Game_Over_Naruto","path":"objects/Obj_Game_Over_Naruto/Obj_Game_Over_Naruto.yy",},},
     {"id":{"name":"Obj_Game_Over_Ruimte","path":"objects/Obj_Game_Over_Ruimte/Obj_Game_Over_Ruimte.yy",},},
+    {"id":{"name":"Obj_Game_Over_Jurassic","path":"objects/Obj_Game_Over_Jurassic/Obj_Game_Over_Jurassic.yy",},},
     {"id":{"name":"Object_agrond","path":"objects/Object_agrond/Object_agrond.yy",},},
     {"id":{"name":"Object_BrownPlatform","path":"objects/Object_BrownPlatform/Object_BrownPlatform.yy",},},
     {"id":{"name":"Object_GrassPlatform","path":"objects/Object_GrassPlatform/Object_GrassPlatform.yy",},},
@@ -92,6 +93,7 @@
     {"id":{"name":"Dungeonroom","path":"rooms/Dungeonroom/Dungeonroom.yy",},},
     {"id":{"name":"Game_Over_Mario","path":"rooms/Game_Over_Mario/Game_Over_Mario.yy",},},
     {"id":{"name":"SlPauze","path":"objects/SlPauze/SlPauze.yy",},},
+    {"id":{"name":"Game_Over_Jurassic","path":"rooms/Game_Over_Jurassic/Game_Over_Jurassic.yy",},},
     {"id":{"name":"Jurassic","path":"rooms/Jurassic/Jurassic.yy",},},
     {"id":{"name":"Game_Over_Ruimte","path":"rooms/Game_Over_Ruimte/Game_Over_Ruimte.yy",},},
     {"id":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
@@ -175,6 +177,7 @@
     {"roomId":{"name":"NarutoLevelQuest","path":"rooms/NarutoLevelQuest/NarutoLevelQuest.yy",},},
     {"roomId":{"name":"NarutoDeathScreen","path":"rooms/NarutoDeathScreen/NarutoDeathScreen.yy",},},
     {"roomId":{"name":"Game_Over_Ruimte","path":"rooms/Game_Over_Ruimte/Game_Over_Ruimte.yy",},},
+    {"roomId":{"name":"Game_Over_Jurassic","path":"rooms/Game_Over_Jurassic/Game_Over_Jurassic.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
