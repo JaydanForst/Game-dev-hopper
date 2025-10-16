@@ -70,7 +70,6 @@
     {"id":{"name":"UFO","path":"objects/UFO/UFO.yy",},},
     {"id":{"name":"uglybeast","path":"objects/uglybeast/uglybeast.yy",},},
     {"id":{"name":"YellowFLame","path":"objects/YellowFLame/YellowFLame.yy",},},
-    {"id":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"id":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"id":{"name":"Narutoroom","path":"rooms/Narutoroom/Narutoroom.yy",},},
     {"id":{"name":"Ruimtewereld","path":"rooms/Ruimtewereld/Ruimtewereld.yy",},},
@@ -121,7 +120,6 @@
     {"roomId":{"name":"Ruimtewereld","path":"rooms/Ruimtewereld/Ruimtewereld.yy",},},
     {"roomId":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"roomId":{"name":"Narutoroom","path":"rooms/Narutoroom/Narutoroom.yy",},},
-    {"roomId":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
