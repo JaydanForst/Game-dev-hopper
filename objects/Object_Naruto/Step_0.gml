@@ -59,3 +59,15 @@ var ctrl = instance_find(OGameController, 0);
 if ctrl != noone && ctrl.paused {
     exit;
 }
+
+if place_meeting(x, y,ODeidara ) {
+	
+	room_goto(NarutoDeathScreen)
+	
+}
+
+ if place_meeting(x, y+1, Object_Portal) {
+	 
+	room_goto(Marioroom)	 
+	 
+ }
