@@ -168,9 +168,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"roomId":{"name":"Jurassic","path":"rooms/Jurassic/Jurassic.yy",},},
     {"roomId":{"name":"Ruimtewereld","path":"rooms/Ruimtewereld/Ruimtewereld.yy",},},
-    {"roomId":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"roomId":{"name":"Dungeonroom","path":"rooms/Dungeonroom/Dungeonroom.yy",},},
     {"roomId":{"name":"Narutoroom","path":"rooms/Narutoroom/Narutoroom.yy",},},
     {"roomId":{"name":"Game_Over_Mario","path":"rooms/Game_Over_Mario/Game_Over_Mario.yy",},},
