@@ -45,7 +45,6 @@
     {"id":{"name":"GreenFlame","path":"objects/GreenFlame/GreenFlame.yy",},},
     {"id":{"name":"kaboom","path":"objects/kaboom/kaboom.yy",},},
     {"id":{"name":"Moonman","path":"objects/Moonman/Moonman.yy",},},
-    {"id":{"name":"Obj_Game_Over","path":"objects/Obj_Game_Over/Obj_Game_Over.yy",},},
     {"id":{"name":"Obj_Game_Over_mario","path":"objects/Obj_Game_Over_mario/Obj_Game_Over_mario.yy",},},
     {"id":{"name":"Object_agrond","path":"objects/Object_agrond/Object_agrond.yy",},},
     {"id":{"name":"Object_BrownPlatform","path":"objects/Object_BrownPlatform/Object_BrownPlatform.yy",},},
