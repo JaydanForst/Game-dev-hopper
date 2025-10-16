@@ -39,6 +39,7 @@
   "resources":[
     {"id":{"name":"fnt_big","path":"fonts/fnt_big/fnt_big.yy",},},
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
+    {"id":{"name":"Obj_Game_Over_Naruto","path":"objects/Obj_Game_Over_Naruto/Obj_Game_Over_Naruto.yy",},},
     {"id":{"name":"Obj_Game_Over","path":"objects/Obj_Game_Over/Obj_Game_Over.yy",},},
     {"id":{"name":"Object_agrond","path":"objects/Object_agrond/Object_agrond.yy",},},
     {"id":{"name":"Object_BrownPlatform","path":"objects/Object_BrownPlatform/Object_BrownPlatform.yy",},},
