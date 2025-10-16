@@ -69,7 +69,7 @@ if !paused_game {
             }
             ysp = -12;
         } else {
-			room_goto(Game_Over);
+			room_goto(Game_Over_Mario);
         }
     }
 }
