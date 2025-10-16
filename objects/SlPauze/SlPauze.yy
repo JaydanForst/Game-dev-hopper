@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Odfloor",
+  "%Name":"SlPauze",
   "eventList":[],
   "managed":true,
-  "name":"Odfloor",
+  "name":"SlPauze",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,11 +26,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"Sdfloor",
-    "path":"sprites/Sdfloor/Sdfloor.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
