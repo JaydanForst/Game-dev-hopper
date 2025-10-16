@@ -85,6 +85,6 @@ if ctrl != noone && ctrl.paused {
 
  if place_meeting(x, y+1, OPortals){
 
-	room_goto(Narutoroom)
+	room_goto(Ruimtewereld)
 	 
  }
