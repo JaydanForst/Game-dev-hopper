@@ -62,7 +62,7 @@ if !paused_game && can_move {
 
 
 if !paused_game && can_move {
-    var enemy = instance_place(x, y, OGoomba);
+    var enemy = instance_place (x, y, OGoomba);
     if enemy != noone {
         var player_bottom = y + sprite_height/2;
         var player_prev_bottom = y - ysp + sprite_height/2;
