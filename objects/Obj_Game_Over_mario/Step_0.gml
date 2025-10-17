@@ -1,3 +1,4 @@
 if (mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, ORespawnButton)) {
-    room_goto(Marioroom);
+   audio_stop_all()
+   room_goto(Marioroom);
 }

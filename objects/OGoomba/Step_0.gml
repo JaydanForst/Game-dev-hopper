@@ -1,7 +1,7 @@
 
 
 
-var ctrl = instance_find(OGameController, 0);
+var ctrl = instance_find(OMario_Overworld_Music_en_pauze, 0);
 if ctrl != noone && ctrl.paused {
     exit; 
 }
@@ -39,27 +39,23 @@ if vsp != 0 {
 if x < sprite_width/2 { x = sprite_width/2; hsp = -hsp; }
 if x > room_width - sprite_width/2 { x = room_width - sprite_width/2; hsp = -hsp; }
 
-
-var player = instance_place(x, y, OMario);
-if player != noone {
-    var player_bottom = player.y + player.sprite_height/2;
-    var player_prev_bottom = player.y - player.vsp + player.sprite_height/2;
-    var enemy_top = y - sprite_height/2;
-
-   
-    if player_prev_bottom <= enemy_top && player_bottom >= enemy_top && player.vsp > 0 {
-      
-        sprite_index = spr_goomba_flat;
-        solid = false;
-        alarm[0] = room_speed / 3;
-        player.vsp = -12; 
-    } else {
- 
-        room_goto(Game_Over_Mario);
-    }
+if !place_meeting(x, y, OMario) {
+	
+	can_move = false
+	
 }
 
-var ctrl = instance_find(OGameController, 0);
+var ctrl = instance_find(OMario_Overworld_Music_en_pauze, 0);
 if ctrl != noone && ctrl.paused {
     exit; 
+}
+
+
+if instance_exists(OMario) {
+    if OMario.is_dead {
+       
+        hsp = 0;
+        vsp = 0;
+        exit; 
+    }
 }
