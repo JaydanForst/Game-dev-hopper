@@ -82,7 +82,7 @@ if !paused_game && can_move {
 			can_move = false;
 			audio_stop_sound(Mario_Overworld_Music)
 			 audio_play_sound(Fahh, 1, false);
-			 alarm[1] = room_speed / 0.8;
+			 alarm[1] = room_speed / 0.7;
 }		
         }
     }
