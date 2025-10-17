@@ -1,4 +1,4 @@
-var ctrl = instance_find(OGameController, 0);
+var ctrl = instance_find(ONaruto_Overworld_music_en_sound, 0);
 var paused_game = (ctrl != noone && ctrl.paused);
 
 
@@ -55,7 +55,7 @@ if !paused_game {
 vsp += gravity; 
 y += vsp;
 
-var ctrl = instance_find(OGameController, 0);
+var ctrl = instance_find(ONaruto_Overworld_music_en_sound, 0);
 if ctrl != noone && ctrl.paused {
     exit;
 }

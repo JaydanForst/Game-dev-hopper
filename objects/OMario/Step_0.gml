@@ -1,10 +1,17 @@
 
 
-var ctrl = instance_find(OGameController, 0);
+if is_dead {
+    can_move = false;
+    xsp = 0;
+    ysp = 0;
+}
+
+
+var ctrl = instance_find(OMario_Overworld_Music_en_pauze, 0);
 var paused_game = (ctrl != noone && ctrl.paused);
 
 
-if !paused_game {
+if !paused_game && can_move {
     xsp = 0;
     if keyboard_check(vk_left)  xsp = -7;
     if keyboard_check(vk_right) xsp = 7;
@@ -36,7 +43,7 @@ if y < 0 { y = 0; ysp = 0; }
 if y > room_height - sprite_height { y = room_height - sprite_height; ysp = 0; }
 
 
-if !paused_game {
+if !paused_game && can_move {
     ysp += 0.8;
     if ysp > 18 ysp = 18;
 
@@ -54,7 +61,7 @@ if !paused_game {
 }
 
 
-if !paused_game {
+if !paused_game && can_move {
     var enemy = instance_place(x, y, OGoomba);
     if enemy != noone {
         var player_bottom = y + sprite_height/2;
@@ -69,7 +76,14 @@ if !paused_game {
             }
             ysp = -12;
         } else {
-			room_goto(Game_Over_Mario);
+			
+			if !is_dead {
+			 is_dead = true;
+			can_move = false;
+			audio_stop_sound(Mario_Overworld_Music)
+			 audio_play_sound(Fahh, 1, false);
+			 alarm[1] = room_speed / 0.8;
+}		
         }
     }
 }
@@ -77,7 +91,7 @@ if !paused_game {
 vsp += gravity; 
 y += vsp;
 
-var ctrl = instance_find(OGameController, 0);
+var ctrl = instance_find(OMario_Overworld_Music_en_pauze, 0);
 if ctrl != noone && ctrl.paused {
     exit;
 }
@@ -88,3 +102,5 @@ if ctrl != noone && ctrl.paused {
 	room_goto(Ruimtewereld)
 	 
  }
+ 
+ 
