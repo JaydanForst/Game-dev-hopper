@@ -3,7 +3,7 @@
   "%Name":"SMario",
   "bboxMode":0,
   "bbox_bottom":61,
-  "bbox_left":4,
+  "bbox_left":6,
   "bbox_right":63,
   "bbox_top":1,
   "collisionKind":1,
