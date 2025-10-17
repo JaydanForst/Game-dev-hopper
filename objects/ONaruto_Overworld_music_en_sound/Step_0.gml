@@ -6,3 +6,13 @@ if pause_btn != noone {
     }
 }
 
+if paused {
+    if bgm_instance != noone {
+        audio_stop_sound(bgm_instance);
+        bgm_instance = noone;
+    }
+} else {
+    if bgm_instance == noone {
+        bgm_instance = audio_play_sound(Naruto_Overworld_Music, 1, true);
+    }
+}
