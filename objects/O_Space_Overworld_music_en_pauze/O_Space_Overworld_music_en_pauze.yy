@@ -1,14 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Moonman",
+  "%Name":"O_Space_Overworld_music_en_pauze",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"checkpointOBJECT","path":"objects/checkpointOBJECT/checkpointOBJECT.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Moonman",
+  "name":"O_Space_Overworld_music_en_pauze",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"ruimteflikkertje",
-    "path":"sprites/ruimteflikkertje/ruimteflikkertje.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
