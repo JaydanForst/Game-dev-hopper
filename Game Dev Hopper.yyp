@@ -40,6 +40,7 @@
   "resources":[
     {"id":{"name":"fnt_big","path":"fonts/fnt_big/fnt_big.yy",},},
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
+    {"id":{"name":"Font3","path":"fonts/Font3/Font3.yy",},},
     {"id":{"name":"checkpointOBJECT","path":"objects/checkpointOBJECT/checkpointOBJECT.yy",},},
     {"id":{"name":"coin","path":"objects/coin/coin.yy",},},
     {"id":{"name":"diamond","path":"objects/diamond/diamond.yy",},},
@@ -86,6 +87,7 @@
     {"id":{"name":"Odtarzan","path":"objects/Odtarzan/Odtarzan.yy",},},
     {"id":{"name":"OGoomba","path":"objects/OGoomba/OGoomba.yy",},},
     {"id":{"name":"OGround","path":"objects/OGround/OGround.yy",},},
+    {"id":{"name":"OMArio_OK","path":"objects/OMArio_OK/OMArio_OK.yy",},},
     {"id":{"name":"OMario_Overworld_Music_en_pauze","path":"objects/OMario_Overworld_Music_en_pauze/OMario_Overworld_Music_en_pauze.yy",},},
     {"id":{"name":"OMario_Popup","path":"objects/OMario_Popup/OMario_Popup.yy",},},
     {"id":{"name":"OMario","path":"objects/OMario/OMario.yy",},},
@@ -159,6 +161,7 @@
     {"id":{"name":"Sdtarzan","path":"sprites/Sdtarzan/Sdtarzan.yy",},},
     {"id":{"name":"SGoomba","path":"sprites/SGoomba/SGoomba.yy",},},
     {"id":{"name":"SGround","path":"sprites/SGround/SGround.yy",},},
+    {"id":{"name":"SMario_OK","path":"sprites/SMario_OK/SMario_OK.yy",},},
     {"id":{"name":"SMario_Popup","path":"sprites/SMario_Popup/SMario_Popup.yy",},},
     {"id":{"name":"SMario","path":"sprites/SMario/SMario.yy",},},
     {"id":{"name":"SNarutopopup","path":"sprites/SNarutopopup/SNarutopopup.yy",},},
@@ -198,8 +201,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Narutoroom","path":"rooms/Narutoroom/Narutoroom.yy",},},
     {"roomId":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
+    {"roomId":{"name":"Narutoroom","path":"rooms/Narutoroom/Narutoroom.yy",},},
     {"roomId":{"name":"Jurassic","path":"rooms/Jurassic/Jurassic.yy",},},
     {"roomId":{"name":"Ruimtewereld","path":"rooms/Ruimtewereld/Ruimtewereld.yy",},},
     {"roomId":{"name":"Dungeonroom","path":"rooms/Dungeonroom/Dungeonroom.yy",},},
