@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"dungeonenemy",
+  "%Name":"dungeonpiraat",
   "eventList":[],
   "managed":true,
-  "name":"dungeonenemy",
+  "name":"dungeonpiraat",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"enemy",
-    "path":"sprites/enemy/enemy.yy",
+    "name":"SPiraat",
+    "path":"sprites/SPiraat/SPiraat.yy",
   },
   "spriteMaskId":null,
   "visible":true,
