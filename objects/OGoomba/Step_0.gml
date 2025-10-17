@@ -39,11 +39,6 @@ if vsp != 0 {
 if x < sprite_width/2 { x = sprite_width/2; hsp = -hsp; }
 if x > room_width - sprite_width/2 { x = room_width - sprite_width/2; hsp = -hsp; }
 
-if !place_meeting(x, y, OMario) {
-	
-	can_move = false
-	
-}
 
 var ctrl = instance_find(OMario_Overworld_Music_en_pauze, 0);
 if ctrl != noone && ctrl.paused {
