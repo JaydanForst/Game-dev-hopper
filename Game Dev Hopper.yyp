@@ -106,7 +106,6 @@
     {"id":{"name":"Sprite_Ramen","path":"sprites/Sprite_Ramen/Sprite_Ramen.yy",},},
     {"id":{"name":"Sprite_TimerAfloop","path":"sprites/Sprite_TimerAfloop/Sprite_TimerAfloop.yy",},},
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
-    {"id":{"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},},
     {"id":{"name":"SRespawnButton","path":"sprites/SRespawnButton/SRespawnButton.yy",},},
   ],
   "resourceType":"GMProject",
