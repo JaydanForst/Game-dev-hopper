@@ -26,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"Sprite_afgrond",
     "path":"sprites/Sprite_afgrond/Sprite_afgrond.yy",
