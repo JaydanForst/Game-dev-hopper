@@ -69,7 +69,7 @@ if !paused_game {
             }
             ysp = -12;
         } else {
-			room_goto(Game_Over);
+			room_goto(Game_Over_Mario);
         }
     }
 }
@@ -85,6 +85,6 @@ if ctrl != noone && ctrl.paused {
 
  if place_meeting(x, y+1, OPortals){
 
-	room_goto(Narutoroom)
+	room_goto(Ruimtewereld)
 	 
  }
