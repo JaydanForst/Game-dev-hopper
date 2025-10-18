@@ -82,7 +82,7 @@ if !paused_game && can_move {
 			can_move = false;
 			audio_stop_sound(Mario_Overworld_Music)
 			 audio_play_sound(Fahh, 1, false);
-			 alarm[1] = room_speed / 0.8;
+			 alarm[1] = room_speed / 0.7;
 }		
         }
     }
@@ -104,4 +104,15 @@ if ctrl != noone && ctrl.paused {
 	 
  }
  
- 
+if place_meeting(x, y, OBlicky) {
+    var popup = instance_find(OMario_popup_2, 0);
+	var button = instance_find(OMario_Oh_No, 0);
+
+	if popup != noone {
+    popup.visible = true;
+	}
+
+	if button != noone {
+    button.visible = true;
+	}
+}
