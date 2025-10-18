@@ -104,4 +104,15 @@ if ctrl != noone && ctrl.paused {
 	 
  }
  
- 
+if place_meeting(x, y, OBlicky) {
+    var popup = instance_find(OMario_popup_2, 0);
+	var button = instance_find(OMario_Oh_No, 0);
+
+	if popup != noone {
+    popup.visible = true;
+	}
+
+	if button != noone {
+    button.visible = true;
+	}
+}

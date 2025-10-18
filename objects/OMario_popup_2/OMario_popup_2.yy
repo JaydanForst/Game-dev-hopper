@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"OMario_OK",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"OMario_popup_2",
+  "eventList":[],
   "managed":true,
-  "name":"OMario_OK",
+  "name":"OMario_popup_2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SMario_OK",
-    "path":"sprites/SMario_OK/SMario_OK.yy",
+    "name":"SMario_Popup",
+    "path":"sprites/SMario_Popup/SMario_Popup.yy",
   },
   "spriteMaskId":null,
   "visible":true,
