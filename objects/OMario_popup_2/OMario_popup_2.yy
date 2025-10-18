@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"OMario_popup_2",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"OMario_popup_2",
   "overriddenProperties":[],

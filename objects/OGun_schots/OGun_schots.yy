@@ -1,9 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"OBlicky",
-  "eventList":[],
+  "%Name":"OGun_schots",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"OBlicky",
+  "name":"OGun_schots",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,11 +30,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"SBlicky",
-    "path":"sprites/SBlicky/SBlicky.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

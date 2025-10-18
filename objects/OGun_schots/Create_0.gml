@@ -1,0 +1,2 @@
+bgm_instance = noone;
+
