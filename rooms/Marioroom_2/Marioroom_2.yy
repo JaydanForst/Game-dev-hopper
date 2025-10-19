@@ -67,6 +67,7 @@
     {"name":"inst_67E52DCE","path":"rooms/Marioroom_2/Marioroom_2.yy",},
     {"name":"inst_24BD201A","path":"rooms/Marioroom_2/Marioroom_2.yy",},
     {"name":"inst_741C5E5D","path":"rooms/Marioroom_2/Marioroom_2.yy",},
+    {"name":"inst_1DF4114C","path":"rooms/Marioroom_2/Marioroom_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -132,6 +133,7 @@
         {"$GMRInstance":"v2","%Name":"inst_67E52DCE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_67E52DCE","objectId":{"name":"OPortals","path":"objects/OPortals/OPortals.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":256.0,"y":32.0,},
         {"$GMRInstance":"v2","%Name":"inst_24BD201A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_24BD201A","objectId":{"name":"OMario_Popup_2","path":"objects/OMario_Popup_2/OMario_Popup_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"inst_741C5E5D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_741C5E5D","objectId":{"name":"OMario_OK_1","path":"objects/OMario_OK_1/OMario_OK_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":608.0,},
+        {"$GMRInstance":"v2","%Name":"inst_1DF4114C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1DF4114C","objectId":{"name":"OGoomba","path":"objects/OGoomba/OGoomba.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":704.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"SBackground","path":"sprites/SBackground/SBackground.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
