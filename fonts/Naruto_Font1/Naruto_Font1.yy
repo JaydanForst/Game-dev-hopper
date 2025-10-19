@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"Font2",
+  "%Name":"Naruto_Font1",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":20,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":27,
   "maintainGms1Font":false,
-  "name":"Font2",
+  "name":"Naruto_Font1",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
@@ -134,10 +134,7 @@
   "sdfSpread":8,
   "size":20.0,
   "styleName":"Regular",
-  "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
-  },
+  "textureGroupId":null,
   "TTFName":"",
   "usesSDF":false,
 }
