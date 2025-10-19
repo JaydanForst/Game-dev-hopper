@@ -116,6 +116,7 @@
     {"id":{"name":"Game_Over_Ruimte","path":"rooms/Game_Over_Ruimte/Game_Over_Ruimte.yy",},},
     {"id":{"name":"Jurassic","path":"rooms/Jurassic/Jurassic.yy",},},
     {"id":{"name":"Marioroom_1","path":"rooms/Marioroom_1/Marioroom_1.yy",},},
+    {"id":{"name":"Marioroom_2","path":"rooms/Marioroom_2/Marioroom_2.yy",},},
     {"id":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"id":{"name":"NarutoDeathScreen","path":"rooms/NarutoDeathScreen/NarutoDeathScreen.yy",},},
     {"id":{"name":"NarutoKamuiDimnesion","path":"rooms/NarutoKamuiDimnesion/NarutoKamuiDimnesion.yy",},},
@@ -221,6 +222,7 @@
     {"roomId":{"name":"Game_Over_Jurassic","path":"rooms/Game_Over_Jurassic/Game_Over_Jurassic.yy",},},
     {"roomId":{"name":"NarutoKamuiDimnesion","path":"rooms/NarutoKamuiDimnesion/NarutoKamuiDimnesion.yy",},},
     {"roomId":{"name":"NarutoPopup","path":"rooms/NarutoPopup/NarutoPopup.yy",},},
+    {"roomId":{"name":"Marioroom_2","path":"rooms/Marioroom_2/Marioroom_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
