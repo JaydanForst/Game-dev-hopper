@@ -74,7 +74,7 @@ if place_meeting(x, y,ODeidara ) {
 			can_move = false;
 			audio_stop_sound(Naruto_Overworld_Music)
 			 audio_play_sound(Fahh, 1, false);
-			 alarm[0] = room_speed / 0.8;
+			 alarm[0] = room_speed / 0.7;
 	
 			}
 }
