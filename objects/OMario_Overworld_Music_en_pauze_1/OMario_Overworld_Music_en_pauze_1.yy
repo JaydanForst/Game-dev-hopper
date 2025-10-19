@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"OMario_Popup_2",
+  "%Name":"OMario_Overworld_Music_en_pauze_1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OMario_Popup_2",
+  "name":"OMario_Overworld_Music_en_pauze_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"SMario_Popup",
-    "path":"sprites/SMario_Popup/SMario_Popup.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

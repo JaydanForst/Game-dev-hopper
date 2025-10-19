@@ -3,7 +3,7 @@ var popupX = camera_get_view_x(view_camera[0]) + (camera_get_view_width(view_cam
 var popupY = camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0]) / 2);
 
 
-var popup = instance_create_layer(popupX, popupY, "GUI", OMario_popup_2);
+var popup = instance_create_layer(popupX, popupY, "GUI", OMario_popup_1);
 
 
 popup.x -= popup.sprite_width / 2.1;
