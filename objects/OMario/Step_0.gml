@@ -75,6 +75,8 @@ if !paused_game && can_move {
                 alarm[0] = room_speed * 0.3;
             }
             ysp = -12;
+			
+			audio_play_sound(Goomba_Stomp_sound, 1, false);
         } else {
 			
 			if !is_dead {
