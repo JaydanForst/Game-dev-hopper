@@ -4,7 +4,7 @@ if paused {
     draw_set_color(c_black);
 
 
-    draw_set_font(fnt_big);
+    draw_set_font(Pauze_Font);
 
     draw_text(room_width/2, room_height/2, "PAUZE");
 }

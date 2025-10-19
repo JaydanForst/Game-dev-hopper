@@ -16,3 +16,9 @@ if paused {
         bgm_instance = audio_play_sound(Mario_Overworld_Music, 1, true);
     }
 }
+
+if global.coins == 11 {
+    with (OPortals) {
+        visible = true;
+    }
+}

@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"OCoin",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"OMario","path":"objects/OMario/OMario.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"OCoin",
   "overriddenProperties":[],

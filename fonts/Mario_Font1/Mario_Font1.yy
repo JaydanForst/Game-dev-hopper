@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"Font3",
+  "%Name":"Mario_Font1",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":18,
@@ -208,7 +208,7 @@
   "last":0,
   "lineHeight":23,
   "maintainGms1Font":false,
-  "name":"Font3",
+  "name":"Mario_Font1",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
@@ -225,10 +225,7 @@
   "sdfSpread":8,
   "size":13.7,
   "styleName":"Regular",
-  "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
-  },
+  "textureGroupId":null,
   "TTFName":"",
   "usesSDF":false,
 }

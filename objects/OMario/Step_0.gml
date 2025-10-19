@@ -72,9 +72,11 @@ if !paused_game && can_move {
             with (enemy) {
                 sprite_index = spr_goomba_flat;
                 solid = false;
-                alarm[0] = room_speed / 3;
+                alarm[0] = room_speed * 0.3;
             }
             ysp = -12;
+			
+			audio_play_sound(Goomba_Stomp_sound, 1, false);
         } else {
 			
 			if !is_dead {
@@ -82,7 +84,7 @@ if !paused_game && can_move {
 			can_move = false;
 			audio_stop_sound(Mario_Overworld_Music)
 			 audio_play_sound(Fahh, 1, false);
-			 alarm[1] = room_speed / 0.7;
+			 alarm[1] = room_speed * 1.5;
 }		
         }
     }
@@ -105,7 +107,7 @@ if ctrl != noone && ctrl.paused {
  }
  
 if place_meeting(x, y, OBlicky) {
-    var popup = instance_find(OMario_popup_2, 0);
+    var popup = instance_find(OMario_popup_1, 0);
 	var button = instance_find(OMario_Oh_No, 0);
 
 	if popup != noone {

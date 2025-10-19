@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fnt_big",
+  "%Name":"Pauze_Font",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":30,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":39,
   "maintainGms1Font":false,
-  "name":"fnt_big",
+  "name":"Pauze_Font",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
@@ -134,7 +134,10 @@
   "sdfSpread":8,
   "size":21.0,
   "styleName":"Regular",
-  "textureGroupId":null,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
   "TTFName":"",
   "usesSDF":false,
 }
