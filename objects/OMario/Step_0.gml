@@ -118,4 +118,3 @@ if place_meeting(x, y, OBlicky) {
     button.visible = true;
 	}
 }
-
