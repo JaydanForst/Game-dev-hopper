@@ -1,13 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"ONaruto_antwoord_a",
+  "%Name":"ONaruto_Overworld_music_en_sound_1",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ONaruto_antwoord_a",
+  "name":"ONaruto_Overworld_music_en_sound_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"SNaruto_antwoord_a",
-    "path":"sprites/SNaruto_antwoord_a/SNaruto_antwoord_a.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

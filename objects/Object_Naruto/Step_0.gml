@@ -15,7 +15,7 @@ if !paused_game && can_move {
     if keyboard_check(vk_right) xsp = 7;
 
  
-    if place_meeting(x, y+1, Object_BrownPlatform) || place_meeting(x, y+1, Object_agrond)  || place_meeting(x, y+1, Object_NarutoPlatform)  || place_meeting(x, y+1, Object_KamuiPillar){
+    if place_meeting(x, y+1, Object_BrownPlatform) || place_meeting(x, y+1, Object_agrond)  || place_meeting(x, y+1, Object_NarutoPlatform)  || place_meeting(x, y+1, Object_KamuiPillar) || place_meeting(x, y+1, Object_NarutoPlatform_1){
         if keyboard_check_pressed(vk_up) {
             ysp = -15;
         }
@@ -25,7 +25,7 @@ if !paused_game && can_move {
     if xsp != 0 {
         var hsign = sign(xsp);
         for (var i = 0; i < abs(xsp); i++) {
-            if !place_meeting(x + hsign, y, Object_NarutoPlatform) && !place_meeting(x + hsign, y, Object_BrownPlatform) && !place_meeting(x + hsign, y, Object_agrond) && !place_meeting(x + hsign, y, Object_KamuiPillar) {
+            if !place_meeting(x + hsign, y, Object_NarutoPlatform) && !place_meeting(x + hsign, y, Object_BrownPlatform) && !place_meeting(x + hsign, y, Object_agrond) && !place_meeting(x + hsign, y, Object_KamuiPillar) && !place_meeting(x + hsign, y, Object_NarutoPlatform_1) {
                 x += hsign;
             } else {
                 break;
@@ -48,7 +48,7 @@ if !paused_game && can_move {
     if ysp != 0 {
         var vsign = sign(ysp);
         for (var i = 0; i < abs(ysp); i++) {
-            if !place_meeting(x, y + vsign, Object_agrond) && !place_meeting(x, y + vsign, Object_BrownPlatform)  && !place_meeting(x, y + vsign, Object_NarutoPlatform) && !place_meeting(x, y + vsign, Object_KamuiPillar){
+            if !place_meeting(x, y + vsign, Object_agrond) && !place_meeting(x, y + vsign, Object_BrownPlatform)  && !place_meeting(x, y + vsign, Object_NarutoPlatform) && !place_meeting(x, y + vsign, Object_KamuiPillar) && !place_meeting(x, y + vsign, Object_NarutoPlatform_1){
                 y += vsign;
             } else {
                 ysp = 0;
@@ -72,7 +72,7 @@ if place_meeting(x, y,ODeidara ) {
 			if !is_dead {
 			 is_dead = true;
 			can_move = false;
-			audio_stop_sound(Naruto_Overworld_Music)
+			audio_stop_all()
 			 audio_play_sound(Fahh, 1, false);
 			 alarm[0] = room_speed * 1.5;
 	
@@ -181,4 +181,10 @@ if !paused_game && can_move {
         ysp = 0;
     }
 }
+
+ if place_meeting(x, y+1, Object_Portal_1) {
+	 
+	audio_stop_all()
+	room_goto(Naruto_troll_room)	 
+ }
 

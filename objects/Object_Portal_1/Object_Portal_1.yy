@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"ONaruto_antwoord_a",
+  "%Name":"Object_Portal_1",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ONaruto_antwoord_a",
+  "name":"Object_Portal_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SNaruto_antwoord_a",
-    "path":"sprites/SNaruto_antwoord_a/SNaruto_antwoord_a.yy",
+    "name":"Sprite_Portal",
+    "path":"sprites/Sprite_Portal/Sprite_Portal.yy",
   },
   "spriteMaskId":null,
   "visible":true,
