@@ -119,9 +119,3 @@ if place_meeting(x, y, OBlicky) {
 	}
 }
 
-if place_meeting(x, y+1, Object_Portal){
-	
-	audio_stop_all()
-	room_goto(Narutoroom)
-	 
- }
