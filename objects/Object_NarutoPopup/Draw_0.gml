@@ -8,9 +8,11 @@ if (visible_menu) {
     draw_set_font(Naruto_Font1);
 
 
+    draw_text(room_width/2, room_height/2.7,
+        "WELKOM IN DE WERELD VAN NARUTO! HIER GAAN WE HET HEBBEN OVER PROGRAMMEREN. ZO TE ZIEN HEEFT");
     draw_text(room_width/2, room_height/2.5,
-        "OH NEE, TOBI HEEFT JE VAST IN EEN GENJUTSU EN HEEFT DE PORTAAL LATEN VERDWIJNEN.");
-    draw_text(room_width/2, room_height/2,
-        "PAK HEM AAN VOORDAT DE GENJUTSU ERGER WORDT!");
+        "TOBI JE VAST IN EEN GENJUTSU, VANDAAR DAT JE MEERDERE KEREN DE ZELFDE PERSONEN ZIET");
+	 draw_text(room_width/2, room_height/2.3,
+        "PAK TOBI AAN EN LAAT ZIEN DAT ER NIET TE SPOTTEN VALT MET NARUTO UZUMAKI!");
 
 }
