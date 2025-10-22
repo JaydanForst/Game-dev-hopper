@@ -7,6 +7,7 @@ if variable_global_exists("request_respawn") && global.request_respawn {
     global.request_respawn = false;
 }
 
+window_set_fullscreen(true)
 xsp=0
 ysp=0
 paused = false;
