@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Crying_goblon_soung",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.2291157,
+  "name":"Crying_goblon_soung",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Crying_goblon_soung.mp3",
+  "type":0,
+  "volume":1.0,
+}
