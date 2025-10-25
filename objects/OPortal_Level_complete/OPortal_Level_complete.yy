@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"ORestartButton",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"OPortal_Level_complete",
+  "eventList":[],
   "managed":true,
-  "name":"ORestartButton",
+  "name":"OPortal_Level_complete",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SRestartButton",
-    "path":"sprites/SRestartButton/SRestartButton.yy",
+    "name":"SPortal",
+    "path":"sprites/SPortal/SPortal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

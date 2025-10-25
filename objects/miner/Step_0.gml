@@ -105,6 +105,6 @@ if ctrl != noone && ctrl.paused {
  if place_meeting(x, y+1, dungeonportal){
 	
 	audio_stop_all()
-	room_goto(HomeScreen)
+	room_goto(Level_Complete_Dungeon)
 	 
  }

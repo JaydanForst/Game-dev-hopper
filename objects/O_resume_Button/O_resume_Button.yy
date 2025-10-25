@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"ORestartButton",
+  "%Name":"O_resume_Button",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ORestartButton",
+  "name":"O_resume_Button",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SRestartButton",
-    "path":"sprites/SRestartButton/SRestartButton.yy",
+    "name":"SResume_Button",
+    "path":"sprites/SResume_Button/SResume_Button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

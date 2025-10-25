@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"ORestartButton",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"miner_Level_comlete",
+  "eventList":[],
   "managed":true,
-  "name":"ORestartButton",
+  "name":"miner_Level_comlete",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SRestartButton",
-    "path":"sprites/SRestartButton/SRestartButton.yy",
+    "name":"playersprite5miner",
+    "path":"sprites/playersprite5miner/playersprite5miner.yy",
   },
   "spriteMaskId":null,
   "visible":true,
