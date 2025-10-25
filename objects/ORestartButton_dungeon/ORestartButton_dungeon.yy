@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"ONextLevelButton",
-  "eventList":[],
+  "%Name":"ORestartButton_dungeon",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"ONextLevelButton",
+  "name":"ORestartButton_dungeon",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SNextLevelButton",
-    "path":"sprites/SNextLevelButton/SNextLevelButton.yy",
+    "name":"SRestartButton",
+    "path":"sprites/SRestartButton/SRestartButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

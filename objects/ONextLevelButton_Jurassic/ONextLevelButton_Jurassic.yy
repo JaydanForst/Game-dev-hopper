@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"ORestartButton",
+  "%Name":"ONextLevelButton_Jurassic",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ORestartButton",
+  "name":"ONextLevelButton_Jurassic",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SRestartButton",
-    "path":"sprites/SRestartButton/SRestartButton.yy",
+    "name":"SNextLevelButton",
+    "path":"sprites/SNextLevelButton/SNextLevelButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

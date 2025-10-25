@@ -6,17 +6,17 @@ if pause_btn != noone {
 		
 		 if (paused) {
       
-        if (!instance_exists(O_Pauze_menu_dungeon)) {
+        if (!instance_exists(O_Pauze_menu_Jurassic)) {
             instance_create_layer(
                 camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2,
                 camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2,
                 "GUI",
-                O_Pauze_menu_dungeon
+                O_Pauze_menu_Jurassic
             );
         }
     } else {
 
-        with (O_Pauze_menu_dungeon) instance_destroy();
+        with (O_Pauze_menu_Jurassic) instance_destroy();
     }
   }
 }
@@ -27,17 +27,17 @@ if (keyboard_check_pressed(vk_escape)) {
 
     if (paused) {
       
-        if (!instance_exists(O_Pauze_menu_dungeon)) {
+        if (!instance_exists(O_Pauze_menu_Jurassic)) {
             instance_create_layer(
                 camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2,
                 camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2,
                 "GUI",
-                O_Pauze_menu_dungeon
+                O_Pauze_menu_Jurassic
             );
         }
     } else {
 
-        with (O_Pauze_menu_dungeon) instance_destroy();
+        with (O_Pauze_menu_Jurassic) instance_destroy();
     }
 }
 
@@ -48,7 +48,7 @@ if paused {
     }
 } else {
     if bgm_instance == noone {
-        bgm_instance = audio_play_sound(dire_dire_docks, 1, true);
+        bgm_instance = audio_play_sound(Jurassic_sound, 1, true);
     }
 }
 

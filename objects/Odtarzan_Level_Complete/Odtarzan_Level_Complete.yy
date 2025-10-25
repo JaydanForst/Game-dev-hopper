@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"OL1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Odtarzan_Level_Complete",
+  "eventList":[],
   "managed":true,
-  "name":"OL1",
+  "name":"Odtarzan_Level_Complete",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SL1",
-    "path":"sprites/SL1/SL1.yy",
+    "name":"Sdtarzan",
+    "path":"sprites/Sdtarzan/Sdtarzan.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"OL1",
+  "%Name":"OBackButton_Jurassic",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OL1",
+  "name":"OBackButton_Jurassic",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SL1",
-    "path":"sprites/SL1/SL1.yy",
+    "name":"SBackButton",
+    "path":"sprites/SBackButton/SBackButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

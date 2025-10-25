@@ -1,4 +1,5 @@
 if mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id) {
-	instance_destroy(O_Pauze_menu)
-    room_restart()
+ 
+    audio_stop_all()
+	room_goto(Loadingscreen_jurassic)
 }
