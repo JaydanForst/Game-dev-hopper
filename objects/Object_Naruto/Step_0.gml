@@ -82,7 +82,7 @@ if place_meeting(x, y,ODeidara ) {
  if place_meeting(x, y+1, Object_Portal) {
 	 
 	audio_stop_all()
-	room_goto(Marioroom)	 
+	room_goto(Level_Complete_Naruto)	 
  }
  
 if !paused_game && can_move {
