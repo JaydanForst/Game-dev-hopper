@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"ONextLevelButton_Jurassic",
+  "%Name":"ONextleveljurassic",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ONextLevelButton_Jurassic",
+  "name":"ONextleveljurassic",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"SNextLevelButton",
-    "path":"sprites/SNextLevelButton/SNextLevelButton.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
