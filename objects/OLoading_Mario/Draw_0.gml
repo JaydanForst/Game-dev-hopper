@@ -6,4 +6,4 @@
 
     draw_set_font(Loading_font);
 
-    draw_text(room_width/2, room_height/9, "Naruto Shippuden");
+    draw_text(room_width/2, room_height/9, "Super Mario Bros");

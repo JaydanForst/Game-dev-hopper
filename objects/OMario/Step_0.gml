@@ -102,7 +102,7 @@ if ctrl != noone && ctrl.paused {
  if place_meeting(x, y+1, OPortals){
 	
 	audio_stop_all()
-	room_goto(Ruimtewereld)
+	room_goto(Level_Complete_Mario)
 	 
  }
  

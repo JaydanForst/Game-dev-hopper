@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"OL3",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"OMario_Level_Complete",
+  "eventList":[],
   "managed":true,
-  "name":"OL3",
+  "name":"OMario_Level_Complete",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SL3",
-    "path":"sprites/SL3/SL3.yy",
+    "name":"SMario",
+    "path":"sprites/SMario/SMario.yy",
   },
   "spriteMaskId":null,
   "visible":true,
