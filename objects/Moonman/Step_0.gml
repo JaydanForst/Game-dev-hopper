@@ -57,6 +57,32 @@ if !paused_game  && can_move {
     }
 }
 
+if !paused_game && can_move {
+    var enemy = instance_place (x, y, BadApe);
+    if enemy != noone {
+        var player_bottom = bbox_bottom;
+		var player_prev_bottom = bbox_bottom - ysp;
+		var enemy_top = enemy.bbox_top;
+
+        if player_prev_bottom <= enemy_top && player_bottom >= enemy_top {
+           with enemy {
+			   instance_destroy()
+		   }
+            ysp = -12;
+			
+			audio_play_sound(Goomba_Stomp_sound, 1, false);
+        } else {
+			
+			if !is_dead {
+			 is_dead = true;
+			can_move = false;
+			audio_stop_sound(Space_song)
+			 audio_play_sound(Game_Over_Voice, 1, false);
+			 alarm[0] = room_speed * 2;
+}		
+        }
+    }
+}
 
 
 if place_meeting(x, y, GreenFlame) {
@@ -65,8 +91,8 @@ if place_meeting(x, y, GreenFlame) {
 			 is_dead = true;
 			can_move = false;
 			audio_stop_sound(Space_song)
-			 audio_play_sound(Fahh, 1, false);
-			 alarm[0] = room_speed * 1.5;
+			 audio_play_sound(Game_Over_Voice, 1, false);
+			 alarm[0] = room_speed * 2;
 			}
 	
 }
@@ -77,8 +103,8 @@ if place_meeting(x, y, YellowFLame) {
 			 is_dead = true;
 			can_move = false;
 			audio_stop_sound(Space_song)
-			 audio_play_sound(Fahh, 1, false);
-			 alarm[0] = room_speed * 1.5;
+			 audio_play_sound(Game_Over_Voice, 1, false);
+			 alarm[0] = room_speed * 2;
 			}
 	
 }

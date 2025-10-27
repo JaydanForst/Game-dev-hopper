@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"OL4",
+  "%Name":"O_resume_Button_ruimte",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OL4",
+  "name":"O_resume_Button_ruimte",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SL4",
-    "path":"sprites/SL4/SL4.yy",
+    "name":"SResume_Button_ruimte",
+    "path":"sprites/SResume_Button_ruimte/SResume_Button_ruimte.yy",
   },
   "spriteMaskId":null,
   "visible":true,
