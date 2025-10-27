@@ -8,11 +8,11 @@ if pause_btn != noone {
 
 if paused {
     if bgm_instance != noone {
-        audio_stop_sound(bgm_instance);
+        audio_pause_sound(Space_song);
         bgm_instance = noone;
     }
 } else {
     if bgm_instance == noone {
-        bgm_instance = audio_play_sound(Space_song, 1, true);
+        bgm_instance = audio_resume_sound(Space_song);
     }
 }

@@ -42,12 +42,12 @@ if (keyboard_check_pressed(vk_escape)) {
 
 if paused {
     if bgm_instance != noone {
-        audio_stop_sound(bgm_instance);
+        audio_pause_sound(Naruto_Overworld_music2);
         bgm_instance = noone;
     }
 } else {
     if bgm_instance == noone {
-        bgm_instance = audio_play_sound(Naruto_Overworld_music2, 1, true);
+        bgm_instance = audio_resume_sound(Naruto_Overworld_music2);
     }
 }
 
