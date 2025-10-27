@@ -79,6 +79,18 @@ if place_meeting(x, y,ODeidara ) {
 			}
 }
 
+if place_meeting(x, y,ODeidara_1 ) {
+	
+			if !is_dead {
+			 is_dead = true;
+			can_move = false;
+			audio_stop_all()
+			 audio_play_sound(Fahh, 1, false);
+			 alarm[5] = room_speed * 1.5;
+	
+			}
+}
+
  if place_meeting(x, y+1, Object_Portal) {
 	 
 	audio_stop_all()

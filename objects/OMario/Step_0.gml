@@ -17,7 +17,7 @@ if !paused_game && can_move {
     if keyboard_check(vk_right) xsp = 7;
 
  
-    if place_meeting(x, y+1, OGround) || place_meeting(x, y+1, OBlock) {
+    if place_meeting(x, y+1, OGround) || place_meeting(x, y+1, OBlock) || place_meeting(x, y+1, OBlock_1) {
         if keyboard_check_pressed(vk_up) {
             ysp = -15;
         }
@@ -27,7 +27,7 @@ if !paused_game && can_move {
     if xsp != 0 {
         var hsign = sign(xsp);
         for (var i = 0; i < abs(xsp); i++) {
-            if !place_meeting(x + hsign, y, OGround) && !place_meeting(x + hsign, y, OBlock) {
+            if !place_meeting(x + hsign, y, OGround) && !place_meeting(x + hsign, y, OBlock) && !place_meeting(x + hsign, y, OBlock_1) {
                 x += hsign;
             } else {
                 break;
@@ -50,7 +50,7 @@ if !paused_game && can_move {
     if ysp != 0 {
         var vsign = sign(ysp);
         for (var i = 0; i < abs(ysp); i++) {
-            if !place_meeting(x, y + vsign, OGround) && !place_meeting(x, y + vsign, OBlock) {
+            if !place_meeting(x, y + vsign, OGround) && !place_meeting(x, y + vsign, OBlock) && !place_meeting(x, y + vsign, OBlock_1) {
                 y += vsign;
             } else {
                 ysp = 0;

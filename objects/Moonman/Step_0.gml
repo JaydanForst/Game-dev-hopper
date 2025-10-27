@@ -66,7 +66,7 @@ if place_meeting(x, y, GreenFlame) {
 			can_move = false;
 			audio_stop_sound(Space_song)
 			 audio_play_sound(Fahh, 1, false);
-			 alarm[0] = room_speed / 0.7;
+			 alarm[0] = room_speed * 1.5;
 			}
 	
 }
@@ -78,7 +78,7 @@ if place_meeting(x, y, YellowFLame) {
 			can_move = false;
 			audio_stop_sound(Space_song)
 			 audio_play_sound(Fahh, 1, false);
-			 alarm[0] = room_speed / 0.7;
+			 alarm[0] = room_speed * 1.5;
 			}
 	
 }

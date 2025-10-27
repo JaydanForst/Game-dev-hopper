@@ -11,8 +11,8 @@ var foot_x = x + hsp;
 var foot_y = y + sprite_height / 2 + 1;
 
 
-if ((!place_meeting(foot_x, foot_y, OBlock) && !place_meeting(foot_x, foot_y, OGround)) ||
-    place_meeting(x + hsp, y, OBlock) || place_meeting(x + hsp, y, OGround)) {
+if ((!place_meeting(foot_x, foot_y, OBlock_1) && !place_meeting(foot_x, foot_y, OGround)) ||
+    place_meeting(x + hsp, y, OBlock_1) || place_meeting(x + hsp, y, OGround)) {
     hsp = -hsp;
 }
 
@@ -26,7 +26,7 @@ if vsp > 18 vsp = 18;
 if vsp != 0 {
     var vsign = sign(vsp);
     for (var i = 0; i < abs(vsp); i++) {
-        if !place_meeting(x, y + vsign, OBlock) && !place_meeting(x, y + vsign, OGround) {
+        if !place_meeting(x, y + vsign, OBlock_1) && !place_meeting(x, y + vsign, OGround) {
             y += vsign;
         } else {
             vsp = 0;
