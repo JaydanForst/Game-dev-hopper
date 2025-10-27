@@ -370,9 +370,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Ruimtewereld","path":"rooms/Ruimtewereld/Ruimtewereld.yy",},},
     {"roomId":{"name":"HomeScreen","path":"rooms/HomeScreen/HomeScreen.yy",},},
     {"roomId":{"name":"Jurassic","path":"rooms/Jurassic/Jurassic.yy",},},
-    {"roomId":{"name":"Ruimtewereld","path":"rooms/Ruimtewereld/Ruimtewereld.yy",},},
     {"roomId":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"roomId":{"name":"NarutoKamuiDimnesion","path":"rooms/NarutoKamuiDimnesion/NarutoKamuiDimnesion.yy",},},
     {"roomId":{"name":"Narutoroom","path":"rooms/Narutoroom/Narutoroom.yy",},},
