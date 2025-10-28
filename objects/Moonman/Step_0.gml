@@ -109,6 +109,12 @@ if place_meeting(x, y, YellowFLame) {
 	
 }
 
+if place_meeting(x, y, OPortal) {
+	
+			room_goto(Level_Complete_ruimte)
+	
+}
+
 
 vsp += gravity; 
 y += vsp;
