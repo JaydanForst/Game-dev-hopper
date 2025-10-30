@@ -61,6 +61,7 @@ if !paused_game && can_move {
 }
 
 
+
 if !paused_game && can_move {
     var enemy = instance_place (x, y, OGoomba);
     if enemy != noone {
@@ -118,3 +119,4 @@ if place_meeting(x, y, OBlicky) {
     button.visible = true;
 	}
 }
+
