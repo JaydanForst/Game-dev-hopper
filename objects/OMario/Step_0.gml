@@ -21,8 +21,9 @@ if !paused_game && can_move {
         if keyboard_check_pressed(vk_up) {
             ysp = -15;
         }
+		
     }
-
+}
 
     if xsp != 0 {
         var hsign = sign(xsp);
