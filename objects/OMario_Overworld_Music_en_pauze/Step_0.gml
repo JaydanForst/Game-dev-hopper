@@ -48,6 +48,7 @@ if paused {
 } else {
     if bgm_instance == noone {
         bgm_instance = audio_resume_sound(Mario_Overworld_Music);
+		
     }
 }
 

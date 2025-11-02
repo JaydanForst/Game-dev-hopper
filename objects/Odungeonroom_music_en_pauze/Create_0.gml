@@ -1,5 +1,7 @@
 paused = false
 
+audio_stop_all()
+
 bgm_instance = noone;
 
 bgm_instance = audio_play_sound(dire_dire_docks, 1, true); 

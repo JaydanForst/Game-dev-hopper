@@ -22,7 +22,7 @@ if !paused_game && can_move {
             ysp = -15;
         }
 		
-    }
+     }
 }
 
     if xsp != 0 {
@@ -35,7 +35,6 @@ if !paused_game && can_move {
             }
         }
     }
-}
 
 
 if x < 0 { x = 0; xsp = 0; }
