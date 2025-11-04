@@ -12,11 +12,11 @@ if (visible_menu) {
         "Welkom in de wereld van Moonman. hier gaan we het hebben");
     draw_text(room_width/2, room_height/3,
         " over de rol QA tester. Zo te zien heeft de maker van het");
-	 draw_text(room_width/2, room_height/2.7,
+	 draw_text(room_width/2, room_height/2.75,
         " level (Tiago) zijn level afgemaakt. Toch is niet alles");
-	 draw_text(room_width/2, room_height/2.4,
+	 draw_text(room_width/2, room_height/2.5,
         " perfect, vandaar dat we jou hulp nodig hebben. Probeer ");
-	draw_text(room_width/2, room_height/2.1,
+	draw_text(room_width/2, room_height/2.3,
         "het level te halen om te zien of er iets mis is. Ga je gang!");
 
 }
