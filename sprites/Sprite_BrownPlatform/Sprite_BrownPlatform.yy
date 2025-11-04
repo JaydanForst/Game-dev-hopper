@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"Sprite_BrownPlatform",
   "bboxMode":2,
-  "bbox_bottom":54,
+  "bbox_bottom":33,
   "bbox_left":10,
   "bbox_right":165,
   "bbox_top":9,
