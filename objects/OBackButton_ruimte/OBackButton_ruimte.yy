@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SBackButton_ruimte",
-    "path":"sprites/SBackButton_ruimte/SBackButton_ruimte.yy",
+    "name":"SBackButton",
+    "path":"sprites/SBackButton/SBackButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

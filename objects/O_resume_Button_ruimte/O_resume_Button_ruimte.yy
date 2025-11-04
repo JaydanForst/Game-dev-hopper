@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SResume_Button_ruimte",
-    "path":"sprites/SResume_Button_ruimte/SResume_Button_ruimte.yy",
+    "name":"SResume_Button",
+    "path":"sprites/SResume_Button/SResume_Button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

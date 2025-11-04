@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SBackButton_naruto",
-    "path":"sprites/SBackButton_naruto/SBackButton_naruto.yy",
+    "name":"SBackButton",
+    "path":"sprites/SBackButton/SBackButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

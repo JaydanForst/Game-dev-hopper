@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SRestartButton_ruimte",
-    "path":"sprites/SRestartButton_ruimte/SRestartButton_ruimte.yy",
+    "name":"SRestartButton",
+    "path":"sprites/SRestartButton/SRestartButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

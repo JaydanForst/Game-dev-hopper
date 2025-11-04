@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"SNaruto_antwoord_b",
   "bboxMode":2,
-  "bbox_bottom":98,
+  "bbox_bottom":100,
   "bbox_left":31,
-  "bbox_right":1348,
+  "bbox_right":1069,
   "bbox_top":6,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -70,7 +70,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"35d82186-5f9d-4417-9ea6-f7a1e7350881","path":"sprites/SNaruto_antwoord_b/SNaruto_antwoord_b.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"551e9a07-ffbc-4f97-855c-bc9ea7ad5ffb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"35d82186-5f9d-4417-9ea6-f7a1e7350881","path":"sprites/SNaruto_antwoord_b/SNaruto_antwoord_b.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"551e9a07-ffbc-4f97-855c-bc9ea7ad5ffb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

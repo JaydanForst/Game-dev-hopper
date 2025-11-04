@@ -1,11 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"OBackButton_naruto_1",
+  "%Name":"Oruimtepopup",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OBackButton_naruto_1",
+  "name":"Oruimtepopup",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SBackButton",
-    "path":"sprites/SBackButton/SBackButton.yy",
+    "name":"Sruimtepopup",
+    "path":"sprites/Sruimtepopup/Sruimtepopup.yy",
   },
   "spriteMaskId":null,
   "visible":true,

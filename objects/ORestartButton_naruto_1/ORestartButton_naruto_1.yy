@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SRestartButton_naruto",
-    "path":"sprites/SRestartButton_naruto/SRestartButton_naruto.yy",
+    "name":"SRestartButton",
+    "path":"sprites/SRestartButton/SRestartButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

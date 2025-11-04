@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sdattebayo_1",
-    "path":"sprites/Sdattebayo_1/Sdattebayo_1.yy",
+    "name":"Sdattebayo",
+    "path":"sprites/Sdattebayo/Sdattebayo.yy",
   },
   "spriteMaskId":null,
   "visible":true,
