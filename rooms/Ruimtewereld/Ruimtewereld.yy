@@ -66,6 +66,7 @@
     {"name":"inst_73DFA90","path":"rooms/Ruimtewereld/Ruimtewereld.yy",},
     {"name":"inst_50972108","path":"rooms/Ruimtewereld/Ruimtewereld.yy",},
     {"name":"inst_4FA9836C","path":"rooms/Ruimtewereld/Ruimtewereld.yy",},
+    {"name":"inst_77004A31","path":"rooms/Ruimtewereld/Ruimtewereld.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -130,6 +131,7 @@
         {"$GMRInstance":"v2","%Name":"inst_73DFA90","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_73DFA90","objectId":{"name":"Moonman","path":"objects/Moonman/Moonman.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.168,"scaleY":0.17773019,"x":1728.0,"y":832.0,},
         {"$GMRInstance":"v2","%Name":"inst_50972108","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50972108","objectId":{"name":"OPortal","path":"objects/OPortal/OPortal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.2461538,"scaleY":1.2461538,"x":864.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"inst_4FA9836C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4FA9836C","objectId":{"name":"O_Space_Overworld_music_en_pauze","path":"objects/O_Space_Overworld_music_en_pauze/O_Space_Overworld_music_en_pauze.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":32.0,},
+        {"$GMRInstance":"v2","%Name":"inst_77004A31","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77004A31","objectId":{"name":"uglybeast","path":"objects/uglybeast/uglybeast.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.424,"scaleY":0.40106952,"x":1760.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"moon","path":"sprites/moon/moon.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
