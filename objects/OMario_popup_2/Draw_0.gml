@@ -11,7 +11,7 @@ if (visible_menu) {
     draw_text(room_width/2, room_height/2.7,
         "Oh nee! Blicky Bilal heeft alle platformen naar beneden geschoten en is hem");
     draw_text(room_width/2, room_height/2.5,
-        "gepeerd. Het is nu aan jou om al zijn geld te pakken zodat de portaal naar");
+        "gepeerd. Het is nu aan jou om al zijn geld te pakken zodat het portaal naar");
 	 draw_text(room_width/2, room_height/2.3,
         "de volgende level open gaat. Klik op de blokken om ze te slepen en klik dan");
 	draw_text(room_width/2, room_height/2.13,

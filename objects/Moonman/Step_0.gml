@@ -14,7 +14,7 @@ if !paused_game  && can_move {
     if keyboard_check(vk_right) xsp = 7;
 
  
-    if place_meeting(x, y+1, UFO) {
+    if place_meeting(x, y+1, UFO) || place_meeting(x, y+1, OBlock_2) || place_meeting(x, y+1, UFO_1) {
         if keyboard_check_pressed(vk_up) {
             ysp = -15;
         }
@@ -24,7 +24,7 @@ if !paused_game  && can_move {
     if xsp != 0 {
         var hsign = sign(xsp);
         for (var i = 0; i < abs(xsp); i++) {
-            if !place_meeting(x + hsign, y, UFO) {
+            if !place_meeting(x + hsign, y, UFO) && !place_meeting(x + hsign, y, OBlock_2) && !place_meeting(x + hsign, y, UFO_1) {
                 x += hsign;
             } else {
                 break;
@@ -47,7 +47,7 @@ if !paused_game  && can_move {
     if ysp != 0 {
         var vsign = sign(ysp);
         for (var i = 0; i < abs(ysp); i++) {
-            if !place_meeting(x, y + vsign, UFO) {
+            if !place_meeting(x, y + vsign, UFO) && !place_meeting(x, y + vsign, OBlock_2) && !place_meeting(x, y + vsign, UFO_1)  {
                 y += vsign;
             } else {
                 ysp = 0;
@@ -115,6 +115,11 @@ if place_meeting(x, y, OPortal) {
 	
 }
 
+var platform = instance_place(x, y + 1, UFO_1);
+
+if (platform != noone) {
+    x += platform.hsp * platform.dir;
+}
 
 vsp += gravity; 
 y += vsp;
@@ -123,3 +128,4 @@ var ctrl = instance_find(O_Space_Overworld_music_en_pauze, 0);
 if ctrl != noone && ctrl.paused {
     exit;
 }
+
