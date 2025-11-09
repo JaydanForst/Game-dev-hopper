@@ -22,6 +22,6 @@
 	draw_text(room_width/2.6, room_height/1.88,
         "WAARSCHUWING: Het level dat u gaat spelen is extreem moeilijk! ");
 	draw_text(room_width/2.6, room_height/1.73,
-        "Gelieve niet boos worden of de laptops breken. Alvast bedankt!");
+        "Gelieve niet boos worden of de laptops breken. Alvast bedankt!!!");
 	
 
