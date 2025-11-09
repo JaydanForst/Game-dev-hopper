@@ -13,7 +13,7 @@ if mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id)
 
 
     var buttonX = popup.x + popup.sprite_width / 2.8;
-    var buttonY = popup.y + popup.sprite_height - 580;
+    var buttonY = popup.y + popup.sprite_height - 540;
 
    
     var dattebayo_button = instance_create_layer(buttonX, buttonY, "GUI", UFO_Button_2);
