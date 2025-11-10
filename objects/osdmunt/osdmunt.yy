@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"osdmunt",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Odtarzan","path":"objects/Odtarzan/Odtarzan.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"osdmunt",
   "overriddenProperties":[],

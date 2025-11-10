@@ -93,6 +93,41 @@ if !paused_game && can_move {
 
 }
 
+
+if !paused_game && can_move {
+
+    var enemy = instance_place(x, y + ysp, dungeonpiraat_1);
+    if enemy != noone {
+        var player_bottom = bbox_bottom;
+		var player_prev_bottom = bbox_bottom - ysp;
+		var enemy_top = enemy.bbox_top;
+
+        if player_prev_bottom <= enemy_top && player_bottom >= enemy_top {
+           
+            with (enemy) instance_destroy();
+            ysp = -12;
+            audio_play_sound(Goomba_Stomp_sound, 1, false);
+			
+			 var portal = instance_find(dungeonportal, 0);
+            if (portal != noone) {
+                portal.visible = true;
+			}
+			
+        } else {
+            
+            if !is_dead {
+                is_dead = true;
+                can_move = false;
+                audio_stop_sound(dire_dire_docks);
+                audio_play_sound(Fahh, 1, false);
+                alarm[0] = room_speed * 1.5;
+            }
+        }
+    }
+
+}
+
+
 vsp += gravity; 
 y += vsp;
 
@@ -102,9 +137,9 @@ if ctrl != noone && ctrl.paused {
 }
 
 
- if place_meeting(x, y+1, dungeonportal){
+ if place_meeting(x, y+1, dungeonportal_1){
 	
 	audio_stop_all()
-	room_goto(Level_Complete_Dungeon)
+	room_goto(Level_Complete_Bonus)
 	 
  }

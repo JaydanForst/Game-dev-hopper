@@ -17,6 +17,8 @@ if (visible_menu) {
 	draw_text(room_width/2, room_height/2.12,
         "In elke level kan je iets verzamelen en hier zijn dat diamanten. Verzamel");
 	draw_text(room_width/2, room_height/2,
-        "er een paar en maak dan je weg op naar de vraagteken.");
+        "er een paar en maak dan je weg op naar de vraagteken. Om deze popup af te");
+	draw_text(room_width/2, room_height/1.88,
+        "sluiten moet je op het figuurtje onderin klikken. Dit komt voor in elke level.");
 
 }

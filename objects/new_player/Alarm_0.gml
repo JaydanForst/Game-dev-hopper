@@ -1,1 +1,1 @@
-room_goto(Game_Over_Dungeon)
+room_goto(Game_Over_Dungeon_1)
