@@ -138,7 +138,7 @@ if place_meeting(x, y, Okamui) {
 			instance_destroy(Object_NarutoPopup_2)
 			audio_stop_sound(Obito_Ritual)
 			 audio_play_sound(Fahh, 1, false);
-			 alarm[0] = room_speed * 1.5;
+			 alarm[6] = room_speed * 1.5;
 	
 			}
 		

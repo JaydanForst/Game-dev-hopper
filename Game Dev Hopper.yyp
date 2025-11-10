@@ -98,6 +98,7 @@
     {"id":{"name":"Obito_Clone","path":"objects/Obito_Clone/Obito_Clone.yy",},},
     {"id":{"name":"Obj_Game_Over_Jurassic","path":"objects/Obj_Game_Over_Jurassic/Obj_Game_Over_Jurassic.yy",},},
     {"id":{"name":"Obj_Game_Over_mario","path":"objects/Obj_Game_Over_mario/Obj_Game_Over_mario.yy",},},
+    {"id":{"name":"Obj_Game_Over_Naruto_1","path":"objects/Obj_Game_Over_Naruto_1/Obj_Game_Over_Naruto_1.yy",},},
     {"id":{"name":"Obj_Game_Over_Naruto","path":"objects/Obj_Game_Over_Naruto/Obj_Game_Over_Naruto.yy",},},
     {"id":{"name":"Obj_Game_Over_Ruimte_1","path":"objects/Obj_Game_Over_Ruimte_1/Obj_Game_Over_Ruimte_1.yy",},},
     {"id":{"name":"Obj_Game_Over_Ruimte","path":"objects/Obj_Game_Over_Ruimte/Obj_Game_Over_Ruimte.yy",},},
@@ -268,6 +269,7 @@
     {"id":{"name":"Marioroom","path":"rooms/Marioroom/Marioroom.yy",},},
     {"id":{"name":"Naruto_troll_room","path":"rooms/Naruto_troll_room/Naruto_troll_room.yy",},},
     {"id":{"name":"NarutoDeathScreen_1","path":"rooms/NarutoDeathScreen_1/NarutoDeathScreen_1.yy",},},
+    {"id":{"name":"NarutoDeathScreen_2","path":"rooms/NarutoDeathScreen_2/NarutoDeathScreen_2.yy",},},
     {"id":{"name":"NarutoDeathScreen","path":"rooms/NarutoDeathScreen/NarutoDeathScreen.yy",},},
     {"id":{"name":"NarutoKamuiDimnesion","path":"rooms/NarutoKamuiDimnesion/NarutoKamuiDimnesion.yy",},},
     {"id":{"name":"Narutoroom_1","path":"rooms/Narutoroom_1/Narutoroom_1.yy",},},
@@ -465,6 +467,7 @@
     {"roomId":{"name":"Infoscreen","path":"rooms/Infoscreen/Infoscreen.yy",},},
     {"roomId":{"name":"Loadingscreen_Bonus","path":"rooms/Loadingscreen_Bonus/Loadingscreen_Bonus.yy",},},
     {"roomId":{"name":"Level_Complete_Bonus","path":"rooms/Level_Complete_Bonus/Level_Complete_Bonus.yy",},},
+    {"roomId":{"name":"NarutoDeathScreen_2","path":"rooms/NarutoDeathScreen_2/NarutoDeathScreen_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

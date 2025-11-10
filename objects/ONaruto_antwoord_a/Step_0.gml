@@ -6,7 +6,7 @@ if mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id)
   
     var ctrl = instance_find(Object_Naruto, 0);
     if ctrl != noone {
-        ctrl.alarm[0] = room_speed * 1.5;
+        ctrl.alarm[6] = room_speed * 1.5;
     }
 
 
