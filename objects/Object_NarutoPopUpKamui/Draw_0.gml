@@ -14,7 +14,7 @@
 	 draw_text(room_width/2, room_height/2.6,
         "(Taha, Jaydan, Tiago, Ilyas, Noah, Wei) en zijn allemaal nieuw ");
 	 draw_text(room_width/2, room_height/2.35,
-        "in het sector van ICT. Hoewel onze ervaring met ICT een directe");
+        "in het sector van ICT. Hoewel onze ervaring met ICT een direct");
 	 draw_text(room_width/2, room_height/2.15,
         "obstakel was voor ons project, hebben wij met veel plezier en");
 	draw_text(room_width/2, room_height/1.97,

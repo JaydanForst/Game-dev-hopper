@@ -10,7 +10,7 @@
     draw_text(room_width/2.5, room_height/2.7,
         "CORRECT! DOOR MIDDEL VAN VAR ENEMY KUNNEN WE DE CODE:");
     draw_text(room_width/2.5, room_height/2.5,
-        " VAR ENEMY = INSTANCE_PLACE (X, Y, OITACHI); IF ENEMY != NOONE { ");
+        " VAR ENEMY = INSTANCE_PLACE (X, Y, OTOBI); IF ENEMY != NOONE { ");
 	 draw_text(room_width/2.5, room_height/2.3,
         "IF PLAYER_PREV_BOTTOM <= ENEMY_TOP && PLAYER_BOTTOM >= ENEMY_TOP {");	
 	 draw_text(room_width/2.5, room_height/2.12,

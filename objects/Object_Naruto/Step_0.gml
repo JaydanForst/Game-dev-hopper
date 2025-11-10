@@ -148,12 +148,12 @@ if place_meeting(x, y, Okamui) {
 if !paused_game && can_move {
     var enemy = instance_place (x, y, Oitachi);
     if enemy != noone {
-        var player_bottom = y + sprite_height/2;
-        var player_prev_bottom = y - ysp + sprite_height/2;
-        var enemy_top = enemy.y - enemy.sprite_height/2;
+         var player_bottom = bbox_bottom;
+		var player_prev_bottom = bbox_bottom - ysp;
+		var enemy_top = enemy.bbox_top;
 
         if player_prev_bottom <= enemy_top && player_bottom >= enemy_top {
-            with (enemy) {
+           with enemy {
 				instance_destroy()
             }
             ysp = -12;
