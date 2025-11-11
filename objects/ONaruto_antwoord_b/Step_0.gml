@@ -23,8 +23,9 @@ if mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id)
     instance_destroy(ONaruto_antwoord_a);
     instance_destroy(ONaruto_antwoord_b);
     instance_destroy(ONaruto_antwoord_c);
-	instance_destroy(Object_Obito_popup)
-	instance_destroy(Obito_Clone)
+	instance_destroy(Object_Obito_popup);
+	instance_destroy(Obito_Clone);
+	instance_destroy(OBlock)
 
   
     var enemy = instance_find(OTobi, 0); 

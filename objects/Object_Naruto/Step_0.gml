@@ -25,7 +25,7 @@ if !paused_game && can_move {
     if xsp != 0 {
         var hsign = sign(xsp);
         for (var i = 0; i < abs(xsp); i++) {
-            if !place_meeting(x + hsign, y, Object_NarutoPlatform) && !place_meeting(x + hsign, y, Object_BrownPlatform) && !place_meeting(x + hsign, y, Object_agrond) && !place_meeting(x + hsign, y, Object_KamuiPillar) && !place_meeting(x + hsign, y, Object_NarutoPlatform_1) {
+            if !place_meeting(x + hsign, y, Object_NarutoPlatform) && !place_meeting(x + hsign, y, Object_BrownPlatform) && !place_meeting(x + hsign, y, Object_agrond) && !place_meeting(x + hsign, y, Object_KamuiPillar) && !place_meeting(x + hsign, y, Object_NarutoPlatform_1) && !place_meeting(x + hsign, y, OBlock) {
                 x += hsign;
             } else {
                 break;
@@ -48,7 +48,7 @@ if !paused_game && can_move {
     if ysp != 0 {
         var vsign = sign(ysp);
         for (var i = 0; i < abs(ysp); i++) {
-            if !place_meeting(x, y + vsign, Object_agrond) && !place_meeting(x, y + vsign, Object_BrownPlatform)  && !place_meeting(x, y + vsign, Object_NarutoPlatform) && !place_meeting(x, y + vsign, Object_KamuiPillar) && !place_meeting(x, y + vsign, Object_NarutoPlatform_1){
+            if !place_meeting(x, y + vsign, Object_agrond) && !place_meeting(x, y + vsign, Object_BrownPlatform)  && !place_meeting(x, y + vsign, Object_NarutoPlatform) && !place_meeting(x, y + vsign, Object_KamuiPillar) && !place_meeting(x, y + vsign, Object_NarutoPlatform_1) && !place_meeting(x, y + vsign, OBlock){
                 y += vsign;
             } else {
                 ysp = 0;
