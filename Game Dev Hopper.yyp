@@ -50,6 +50,7 @@
     {"id":{"name":"Ruimte_font_1","path":"fonts/Ruimte_font_1/Ruimte_font_1.yy",},},
     {"id":{"name":"Ruimte_font","path":"fonts/Ruimte_font/Ruimte_font.yy",},},
     {"id":{"name":"BadApe","path":"objects/BadApe/BadApe.yy",},},
+    {"id":{"name":"Cannot","path":"objects/Cannot/Cannot.yy",},},
     {"id":{"name":"checkpointOBJECT","path":"objects/checkpointOBJECT/checkpointOBJECT.yy",},},
     {"id":{"name":"coin","path":"objects/coin/coin.yy",},},
     {"id":{"name":"diamond","path":"objects/diamond/diamond.yy",},},
